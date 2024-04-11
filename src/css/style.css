@@ -72,3 +72,21 @@ body{
   max-width: 100%;
   display: block;
 }
+
+.vantagens{
+  padding: 80px;
+}
+
+.vantagens-descricoes{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15px;
+  padding-bottom: 40px;
+}
+
+.vantagens-descricoes h3{
+  font-size: 20px;
+}
+.vantagens-descricoes p{
+  grid-column: 2;
+}
