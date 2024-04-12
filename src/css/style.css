@@ -40,6 +40,16 @@ body{
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 20px 0;
+  position: relative;
+}
+.container::before{
+  content: "";
+  height: 4px;
+  width: 60px;
+  background-color: var(--detalhes);
+  position: absolute;
+  left: 47%;
+  top: 30px;
 }
 
 .container .informacoes{
