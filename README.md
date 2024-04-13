@@ -2,7 +2,7 @@
 Projeto sugerido através do curso HTML e CSS para Iniciantes-ORIGAMID
 
 ## Projeto
-🔗 Acesse o <a href="https://keylalins.github.io/bikcraft-landing-page/" title="Acessar" target="_blank">site ativo.</a>
+### 🔗 Acesse o <a href="https://keylalins.github.io/bikcraft-landing-page/" title="Acessar" target="_blank">site ativo.</a>
 
 <img src="./src/design/bikcraft-desktop.gif" target="_blank">
 
