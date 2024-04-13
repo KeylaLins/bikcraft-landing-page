@@ -1,5 +1,6 @@
 :root{
-  --bg-padrao: #f7f7f7;
+  --bg-neutro: #f7f7f7;
   --destaque-texto:#c6c6c6;
   --detalhes:#ee2211;
+  --detalhe-botao: #900;
 }

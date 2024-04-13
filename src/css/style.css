@@ -1,7 +1,11 @@
+html{
+  font-size: 62.5%;
+}
+
 body{
-  background-color: var(--bg-padrao);
+  background-color: var(--bg-neutro);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   height: 100vh;
   display: grid;
   justify-items: center;
@@ -9,22 +13,20 @@ body{
 }
 
 .header{
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 60px;
-  padding-top: 60px;
+  justify-items: center;
+  margin-top: 60px;
 }
 
 .header .logo{
-  display: flex;
-  justify-content: center;
+  justify-self: center;
 }
 
 .header .menu{
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-items: center;
 }
 
 .header .menu li{
@@ -32,7 +34,11 @@ body{
   padding: 15px 30px;
   text-transform: uppercase;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
+  border: #fff solid 2px;
+}
+.header .menu li:hover{
+  border: var(--detalhes) solid 2px;
 }
 
 .container{
@@ -62,7 +68,7 @@ body{
 }
 
 .container .informacoes h1{
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 .container .informacoes p{
@@ -74,8 +80,11 @@ body{
   color: #fff;
   padding: 15px 30px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-transform: uppercase;
+}
+.container .informacoes .botao:hover{
+  background-color: var(--detalhe-botao);
 }
 
 .container .imagem img{
@@ -86,10 +95,11 @@ body{
 .container .titulo-vantagens{
   color: var(--destaque-texto);
   text-transform: uppercase;
-  font-size: 42px;
-  padding-right: 40px;
+  font-size: 4.4rem;
+  padding: 40px;
   text-align: right;
   align-self: center;
+  background: url("../img/onda.svg");
 }
 
 .container .vantagens{
@@ -103,9 +113,15 @@ body{
   gap: 10px 20px;
   padding: 20px;
 }
+.container .vantagens .vantagens-descricoes:hover{
+  border-left: var(--detalhes) solid 4px;
+}
+.container .vantagens .vantagens-descricoes:nth-child(odd) {
+  background-color: var(--bg-neutro);
+}
 
 .container .vantagens .vantagens-descricoes h3{
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .container .vantagens .vantagens-descricoes p{

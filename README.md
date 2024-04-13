@@ -1,47 +1,32 @@
 # Landing page - agência de bicicletas
+Projeto sugerido através do curso HTML e CSS para Iniciantes-ORIGAMID
 
+## Projeto
+### 🔗 Acesse o site ativo: 
+https://keylalins.github.io/bikcraft-landing-page/
 
-# Cores
-
-cinza-fundo: #f7f7f7
-cinza-texto: #c6c6c6
-vermelho: #ee2211
-
-# Tipografia
-
-fonte: Arial
-parágrafos: 16px, 20px
-Vantagens Bikcraft: 64px
-
-# Tamanhos
-
-conteúdo principal: máximo 1000px
-
-Hora inicial:
-1. 00:30 - 01:40
-2. 16:00 - 18:00
-3. 00:00 - 
-
-# Landing page de uma agência
-
-Esse projeto é um desafio sugerido através do curso DevQuest. 
-
-## Descrição
-Construir uma página única de uma agência fictícia de projetos.
-<img src="./design/animacao-desktop.gif">
+<img src="./src/design/bikcraft-desktop.gif">
 
 ## Tecnologias
-- Semantica HTML5
-- Propiedades CSS
+- `HTML5`
+- `Propiedades CSS`
 
-## Cores
-- Coral
-- Lightblue
-- Lightpink
-- Lightgreen
+### Cores
+---
+- Destaques: #fff
+- Fundo: #f7f7f7
+- Texto destacado: #c6c6c6
+- Detalhes: #ee2211
 
-## Typography
+## Tipografia
 
--  Font: [Roboto](https://fonts.google.com/specimen/Roboto)
+Fonte: Arial
 
-- Pesos: 400, 500, 700
+### Tamanhos
+---
+Conteúdo de tela: máximo 1000px
+
+Textos: 1.6rem, 20rem, 3.2rem, 4.4rem
+Responsivo: 2.5rem, 3rem
+
+Espaçamento entre parágrafos: 1.3 
